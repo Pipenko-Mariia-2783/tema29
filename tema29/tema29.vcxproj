@@ -139,7 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="B.cpp" />
     <ClCompile Include="tema29.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="B.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

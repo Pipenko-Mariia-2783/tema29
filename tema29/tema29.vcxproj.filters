@@ -18,5 +18,13 @@
     <ClCompile Include="tema29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
