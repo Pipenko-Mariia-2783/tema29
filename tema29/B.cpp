@@ -19,3 +19,13 @@ void B2::show_B2() const
 {
 	cout << "B2: " << b2 << endl;
 }
+
+B3::B3(int b3)
+{
+	this->b3 = b3;
+}
+
+void B3::show_B3() const
+{
+	cout << "B3: " << b3 << endl;
+}

@@ -16,3 +16,9 @@ public:
 	void show_B2()const;
 };
 
+class B3 {
+	int b3;
+public:
+	B3(int b3);
+	void show_B3()const;
+};
