@@ -43,3 +43,14 @@ void D1::show_D1() const
 	show_B3();
 	cout << "D1: " << d1 << endl;
 }
+
+D2::D2(int d2, int d1, int a, int b, int c):D1(d1,a,b,c)
+{
+	this->d2 = d2;
+}
+
+void D2::show_D2() const
+{
+	show_D1();
+	cout << "D2: " << d2 << endl;
+}

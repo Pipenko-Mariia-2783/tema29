@@ -32,3 +32,12 @@ public:
 	D1(int d1,int a, int b, int c);
 	void show_D1()const;
 };
+
+class D2:
+	public D1
+{
+	int d2;
+public:
+	D2(int d2, int d1, int a, int b, int c);
+	void show_D2()const;
+};
