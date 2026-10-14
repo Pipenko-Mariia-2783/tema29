@@ -22,3 +22,13 @@ public:
 	B3(int b3);
 	void show_B3()const;
 };
+
+class D1:public B,
+	public B2,
+	private B3
+{
+	int d1;
+public:
+	D1(int d1,int a, int b, int c);
+	void show_D1()const;
+};

@@ -29,3 +29,17 @@ void B3::show_B3() const
 {
 	cout << "B3: " << b3 << endl;
 }
+
+D1::D1(int d1, int a, int b, int c):B(a),B2(b),B3(c)
+{
+	this->d1 = d1;
+}
+
+
+void D1::show_D1() const
+{
+	show_B();
+	show_B2();
+	show_B3();
+	cout << "D1: " << d1 << endl;
+}
